@@ -1,0 +1,573 @@
+p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif; 
+}
+.uphead{
+padding: 10px;
+
+}
+.header1{
+
+}
+.header1 h2{
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.header1 span img{
+    width: 40px;
+    height: auto;
+    font-size: 25px;
+}
+
+
+}
+.header2 ul{
+    list-style: none;
+}
+.header2 ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.header2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+.header3 ul li{
+    position:relative;
+}
+.header3 ul li ul{
+position: absolute;
+
+}
+.header3 ul li:hover ul li{
+
+}
+.header31{
+    display: block;
+    text-align: center;
+}
+
+.header3{
+display: inline-block;
+text-align: right;
+
+}
+.header3 a{
+    padding: 10px;
+    text-decoration: none;
+    background: white;
+    color: blue;
+    font-size: 20px;
+    border-radius: 10%;
+    border: 2px solid blue;
+    font-weight: 600;
+    position: relative;
+    right: -100px;
+
+}
+.header3 a:hover{
+    color: white;
+    background: blue;
+    
+}
+
+.section1{
+    margin-bottom: 20px;
+    
+}
+.backg{
+background:url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 150px 0px;
+
+}
+
+
+
+.sec11 h4{
+color: white;
+font-size: 30px;
+}
+.sec12 h1{
+font-size: 40px;
+color: white;
+}
+.sec-text1 input{
+position: relative;
+right: 250px;
+box-shadow: 2px 2px 30px whitesmoke;
+border-radius: 5%;
+border: 2px solid white;
+
+}
+.sect{
+    font-size: 35px;
+}
+.sec-text2{
+
+}
+.sec-text2 a{
+    padding: 10px 40px;
+    color: white;
+    background: green;
+    font-size: 30px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+.sec-text2 a:hover{
+    color: blue;
+    background: white;
+    box-shadow: 2px 2px 30px blue;
+
+}
+.rating{
+    margin-top: 25px;
+    padding: 25px;
+    margin-bottom: 20px;
+    
+}
+.ratb{
+    background: rgb(243, 250, 253);
+    padding: 20px;
+}
+.rating-botom-text{
+padding: 30px;
+background: ;
+
+}
+.rating-botom-text h1{
+margin-top: 10px;
+margin-bottom: 15px;
+font-size: 65px;
+line-height: 100%;
+}
+.rating-botom-text p{
+margin-top: 15px;
+font-size: 22px;
+line-height: 50px;
+}
+.rating-botom-img{
+    width: 350px;
+    height: auto;
+    line-height: 100%;
+}
+.learn{
+    margin: 50px 0px;
+}
+.learn p{
+    font-size: 25px;
+    margin-top: 22px;
+}
+.imtex1{
+background: white;
+border: 1px solid white;
+margin: 10px;
+box-shadow:2px 2px 25px rgb(219, 241, 248) ;
+max-height: 100%;
+height: 220px;
+margin-bottom: 15PX;
+
+}
+.imtex1 img{
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-right: 5px;
+}
+.look{
+margin-top: 60px;
+margin-bottom: 40px;
+}
+.look h1{
+font-size: 50px;
+}
+.appbot{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hovimg{
+    text-align: center;
+    background: white;
+    width: 350px;
+    height:300px;
+    display:block;
+    position: relative;
+
+    
+}
+.hovimg img{
+    width: 350px;
+    height: 300px;
+}
+.hovimg::after{
+    content: "";
+    position: absolute;
+    
+    transition: .5s;
+    top: 0%;
+    left: 0%;
+    height: 300px;
+    width: 350px;
+    background: rgba(38, 176, 226, 0.5);
+    opacity: 0;
+    visibility: hidden;
+
+}
+.hovimg:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+.apbot{
+    margin-top: -10px;
+}
+.appuse{
+    background: rgb(247, 252, 253);
+    margin-top: 70px;
+}
+.useap{
+
+}
+.useap h1{
+margin-top: 40px;
+margin-bottom: 20px;
+font-size: 45px;
+
+}
+.useap p{
+margin-top: 20px;
+margin-bottom: 40px;
+font-size: 22px;
+}
+.serial{
+margin-top: 30px;
+margin-bottom: 70px;
+background: white;
+box-shadow: 2px 2px 30px rgb(154, 166, 168) ;
+
+padding: 45px 0px;
+width: 400px;
+
+}
+.serial h1{
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 25px;
+}
+.serial p{
+font-size: 25px;
+margin-bottom: 26px;
+}
+
+.serial ul li{
+    padding: 15px;
+    font-size: 20px;
+}
+.serial ul li span{
+    color: blue;
+}
+
+
+
+.serial ul{
+    text-align:left;
+    display: inline-block;
+    list-style: none;
+}
+
+.click a{
+    font-size: 25px;
+    color: blue;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 25px gray;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.click a:hover{
+    background: #000;
+    color: white;
+}
+
+.fed1{
+ font-size: 25px;
+ margin-bottom: 25px;
+}
+.fed2{
+font-size: 60px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.fed3 span{
+font-size: 70px;
+opacity: .2;
+}
+.fed4{
+font-size: 25px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.feedimg{
+
+}
+.feedimg h3{
+font-size: 17px;
+}
+.feedimg p{
+margin-top: -3px;
+margin-bottom: 25px;
+padding-bottom: 20px;
+}
+
+
+.feedimg img{
+    float: left;
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    bottom: 5px;
+}
+
+.memb{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.mem11{
+margin-top:35px ;
+margin-bottom: 36px;
+}
+.mem11 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.mem11 p{
+    font-size: 20px;
+    text-align: left;
+}
+.mem12 p{
+    margin-top:175px ;
+    text-align: left;
+    
+
+font-size:20px;
+}
+
+.membio img{
+    border-radius: 50%;
+
+}
+
+.membio{
+    padding: 20px;
+    margin-top: 65px;
+    background: white;
+    box-shadow: 3px 3px 30px rgb(135, 172, 187);
+    height: 400px;
+}
+.membio img{
+    width: 130px;
+    height: 130px;
+    text-align: left;
+}
+.membio h2{
+text-align: left;
+font-size: 22px;
+}
+.membio h4{
+text-align: left;
+}
+.membio p{
+text-align: left;
+font-size: 15px;
+}
+.membio a{
+text-align: left;
+background: white;
+color: black;
+border-radius: 7%;
+text-decoration: none;
+font-weight: 600;
+box-shadow: 2px 2px 24px skyblue;
+padding: 10px 20px;
+font-size: 20px;
+position: relative;
+top: 50px;
+}
+.membio a:hover{
+    background: #000;
+    color: white;
+    transition: .5s;
+}
+
+.final{
+
+    margin-bottom: 110px;
+    background: white;
+    
+}
+.semifinal{
+    box-shadow: 2px 2px 30px rgb(199, 199, 255);
+    margin-bottom: 30px;
+    padding: 30px -20px;
+    text-align: center;
+    padding-left: -320px;
+    padding-right: -320px;
+}
+.final p{
+font-size: 22px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.final h2{
+font-size: 45px;
+margin-top: 25px;
+margin-bottom: 40px;
+}
+
+.final2{
+   margin-top: 50px; 
+}
+.final2 h3{
+font-size: 25px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.final3in{
+padding: 10px 90px;
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid white;
+border-radius: 5%;
+box-shadow: 2px 2px 25px rgb(198, 234, 248);
+}
+.naming{
+font-size: 25px;
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid white;
+border-radius: 5%;
+box-shadow: 2px 2px 25px rgb(198, 234, 248);
+padding: 10px 8px;
+position: relative;
+right: 85px;
+}
+.numbering{
+position: relative;
+left: 40px;
+font-size: 22px;
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid white;
+border-radius: 5%;
+box-shadow: 2px 2px 25px rgb(198, 234, 248);
+padding: 10px 8px;
+}
+.textara{
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 5%;
+    box-shadow: 2px 2px 25px rgb(198, 234, 248);
+    padding: 10px 20px;
+    text-align: center;
+}
+.final a{
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 10px 30px;
+color: white;
+background: rgb(37, 37, 241);
+font-size: 30px;
+text-decoration: none;
+border-radius: 10%;
+}
+.final a:hover{
+    color: rgb(49, 49, 250);
+    background: white;
+    transition: .5s;
+    border: 2px solid rgb(49, 49, 250);
+    box-shadow: 2px 2px 30px rgb(102, 116, 241);
+}
+
+.fot{
+  margin-top: 40px;  
+}
+.fot p{
+font-size: 25px;
+margin-top:50px ;
+margin-bottom: 40px;
+}
+.fot h1{
+margin-bottom: 40px;
+margin-top: 30px;
+font-size: 50px
+}
+.apple{
+text-decoration: none;
+padding: 15px 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 22px;
+color: rgb(29, 172, 29);
+background-color: #fff;
+border: 2px solid rgb(17, 175, 17);
+text-align: center;
+font-weight: 600;
+border-radius: 5%;
+
+}
+.apple:hover{
+    color: white;
+    background-color: green;
+    transition: .5s;
+}
+.mobile{
+    text-decoration: none;
+    padding: 15px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color:#fff ;
+    background: rgb(17, 180, 17);
+    border: 2px solid green;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5%;
+    box-shadow: 2px 2px 30px rgb(113, 243, 113)
+}
+.mobile:hover{
+    color: white;
+    background: black;
+    transition: .5s;
+}
+.fot img{
+margin-top: 70px;
+margin-bottom: 50px;
+height: 450px;
+width: 600px;
+}
+.fotlast{
+background-color: rgb(250, 252, 253);
+padding: 30px 40px;
+}
